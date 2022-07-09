@@ -1,0 +1,16 @@
+## Requirements:
+
+- PHP 8.1
+- Docker
+- Docker composer
+- Make
+
+
+## Start
+
+```bash
+make start
+```
+After you can access to http://localhost:8081
+http://localhost:8081/admin for EasyAdmin
+http://localhost:8081/api for ApiPlatform
