@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a00a3051e13b85827dea20f14670ca5",
+    "content-hash": "b1645ff7ec20f43a7c53c96a4a8b7c1c",
     "packages": [
         {
             "name": "api-platform/core",
-            "version": "v2.7.0-beta.4",
+            "version": "v2.7.0-rc.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/api-platform/core.git",
-                "reference": "e3f09ed6760a345437550cb8cf2d5a85e8e090f3"
+                "reference": "f2c8a6113d2e004eefe10f95671a8822ce307733"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/api-platform/core/zipball/e3f09ed6760a345437550cb8cf2d5a85e8e090f3",
-                "reference": "e3f09ed6760a345437550cb8cf2d5a85e8e090f3",
+                "url": "https://api.github.com/repos/api-platform/core/zipball/f2c8a6113d2e004eefe10f95671a8822ce307733",
+                "reference": "f2c8a6113d2e004eefe10f95671a8822ce307733",
                 "shasum": ""
             },
             "require": {
@@ -163,7 +163,7 @@
             ],
             "support": {
                 "issues": "https://github.com/api-platform/core/issues",
-                "source": "https://github.com/api-platform/core/tree/v2.7.0-beta.4"
+                "source": "https://github.com/api-platform/core/tree/v2.7.0-rc.2"
             },
             "funding": [
                 {
@@ -171,7 +171,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-01T11:22:00+00:00"
+            "time": "2022-07-25T08:58:06+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -6985,7 +6985,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "api-platform/core": 10
+        "api-platform/core": 5
     },
     "prefer-stable": true,
     "prefer-lowest": false,

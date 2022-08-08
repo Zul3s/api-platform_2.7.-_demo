@@ -3,11 +3,16 @@
 namespace App\Entity;
 
 use ApiPlatform\Core\Annotation\ApiResource;
+use ApiPlatform\Metadata\Get;
+use ApiPlatform\Metadata\GetCollection;
+use App\Dto\CarOutput;
+use App\Provider\CarItemProvider;
 use App\Repository\CarRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: CarRepository::class)]
-#[ApiResource]
+
+#[GetCollection(provider: CarItemProvider::class, output: CarOutput::class)]
 class Car
 {
     #[ORM\Id]
